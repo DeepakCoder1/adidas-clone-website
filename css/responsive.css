@@ -1,0 +1,386 @@
+@media (min-width:992px) and (max-width:1199px) {
+	.container {
+		max-width: 990px;
+	}
+
+	header {
+		height: 68px;
+	}
+
+	header .logo {
+		padding: 16px 15px 0px 10px;
+	}
+
+	header nav {
+		padding: 26px 0px 0px 50px;
+	}
+
+	header nav ul li {
+		font-size: 13px;
+		padding: 0px 13px 0px 0px;
+	}
+
+	header .right-section {
+		padding-top: 17px;
+	}
+
+	.banner {
+		background-position: bottom;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	.shopping-for .image-box img {
+		height: 350px;
+	}
+
+	.shopping-for .image-box .sub-title a {
+		font-size: 14px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.shoes-section p a {
+		font-size: 14px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.yezzy-section {
+		height: 360px;
+	}
+
+	.yezzy-section .text {
+		padding: 0px 0px 0px 0px;
+	}
+
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer ul li {
+		font-size: 12px;
+	}
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.container {
+		max-width: 720px;
+	}
+
+	header .logo {
+		padding: 15px 15px 0px 10px;
+	}
+
+	header {
+		height: 68px;
+	}
+
+	header nav {
+		padding: 22px 0px 0px 50px;
+	}
+
+	header nav ul li {
+		font-size: 7px;
+		padding: 0px 5px;
+	}
+
+	header .right-section .search input {
+		width: 150px;
+		height: 30px;
+	}
+
+	.right-section .search i {
+		position: absolute;
+		top: 7px;
+		right: 20px;
+	}
+
+	header .right-section .heart-icon {
+		font-size: 14px;
+	}
+
+	header .right-section {
+		padding-top: 18px;
+	}
+
+	.banner {
+		background-position: bottom;
+		height: 440px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	.shopping-for .image-box img {
+		height: 270px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.review .image-box {
+		height: auto;
+	}
+
+	.review .col-4:nth-child(2) .image-box img {
+		width: 100px;
+	}
+
+	.review .title {
+		font-size: 34px;
+		padding: 16px 0px 0px 0px;
+	}
+
+	.review .sub-title {
+		font-size: 26px;
+	}
+
+	.review .image-box button {
+		margin: 20px 0px 0px 0px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.shoes-section .image-box {
+		height: auto;
+	}
+
+	.shoes-section p a {
+		font-size: 14px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.yezzy-section {
+		height: 265px;
+	}
+
+	.yezzy-section .text {
+		padding: 0px;
+	}
+
+	.yezzy-section .title {
+		padding: 50px 0px 0px 90px;
+	}
+
+	.yezzy-section .sub-title {
+		padding: 10px 0px 0px 90px;
+	}
+
+	.yezzy-section button {
+		margin: 18px 0px 0px 92px;
+	}
+
+	.yezzy-section img {
+		padding: 57px 50px 0px 0px;
+	}
+
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer ul li {
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width:767px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		width: 100%;
+		float: none;
+	}
+
+	.toggle-button {
+		display: block;
+		color: #000000;
+		margin: 7px auto;
+	}
+
+	.banner {
+		background-position: inherit;
+		height: 500px;
+	}
+
+	header nav {
+		margin-top: 0;
+		display: none;
+		padding: 0px;
+	}
+
+	header .menu-section {
+		display: block;
+		position: absolute;
+		right: 15px;
+		top: 25px;
+		font-size: 25px;
+		color: #000000;
+	}
+
+	header nav.show {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: 100vw;
+		left: -339px;
+		background: #ffffff;
+	}
+
+	header .menu-section ul li {
+		display: block;
+		float: none;
+		text-align: center;
+		padding: 10px 0px;
+	}
+
+	header .right-section .search {
+		width: 100%;
+		display: block;
+		text-align: start;
+	}
+
+	.right-section .search i {
+		right: 132px;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+
+	.shopping-for .image-box img {
+		height: 300px;
+	}
+
+	.shopping-for .image-box .sub-title a {
+		font-size: 14px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.populer .box .button-section {
+		display: grid;
+		padding: 40px 0px 0px 0px;
+		text-align: center;
+	}
+
+	.populer .box .button-section a {
+		text-decoration: none;
+		color: #000000;
+		padding: 15px 25px;
+		background: #cdcdcd;
+		margin: 0px;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.review .image-box {
+		height: auto;
+	}
+
+	.review .col-4:nth-child(2) .image-box img {
+		padding: 0px;
+		height: auto;
+		width: 150px;
+		margin: 0px;
+	}
+
+	.review .image-box img {
+		height: 300px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	.shoes-section .image-box {
+		height: auto;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	.gear-up .title {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.yezzy-section {
+		height: auto;
+		padding: 50px 0px;
+	}
+
+	.yezzy-section .text {
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+	}
+
+	.yezzy-section .title {
+		font-size: 24px;
+		padding: 0px;
+	}
+
+	.yezzy-section .sub-title {
+		font-size: 18px;
+		padding: 15px 0px 0px 0px;
+	}
+
+	.yezzy-section button {
+		height: 30px;
+		width: 130px;
+		border-radius: 40px;
+		margin: 18px 0px 0px 0px;
+	}
+
+	.yezzy-section img {
+		width: 280px;
+		margin-top: 30px;
+	}
+
+	footer .title {
+		font-size: 16px;
+	}
+	footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+	footer ul li {
+		font-size: 12px;
+	}
+	footer .privacy{
+		text-align: left;
+	}
+	footer .privacy ul li {
+    display: inline-block;
+    padding: 0px;
+    border-right: none;
+}
+
+}
